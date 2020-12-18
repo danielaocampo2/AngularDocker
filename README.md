@@ -15,7 +15,7 @@ https://hub.docker.com/r/danielaocampo/api-node/tags?page=1&ordering=last_update
         
 - **Obtiene un estudiante:** 
   -- <b>Metodo:</b> GET <br>
-  -- <b>Ruta:</b> http://localhost:4000/students/{cc}
+  -- <b>Ruta:</b> http://localhost:4000/students/{cc} <br>
   -- <b>Parametro:</b> cc del estudiante va en la URL
 - **Modificar datos de un estudiante:** 
 - **Crear un estudiante:** 
