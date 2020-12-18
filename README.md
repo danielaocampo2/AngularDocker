@@ -45,8 +45,13 @@ https://hub.docker.com/r/danielaocampo/api-node/tags?page=1&ordering=last_update
   -- <b>Ruta:</b> http://localhost:4000/students/delete/{cc} <br>
   -- <b>Parametro:</b> cc del estudiante va en la URL
 
-- **Modificar el campo estado, poniendo en 0 de todos los estudiantes que estan en el decimo semestre:** 
-- **Entregar el promedio de las notas de todos los estudiantes de un curso:**
+- **Modificar el campo estado, poniendo en 0 de todos los estudiantes que estan en el decimo semestre:** <br>
+  -- <b>Metodo:</b> POST <br>
+  -- <b>Ruta:</b> http://localhost:4000/students/deactivate 
+- **Entregar el promedio de las notas de todos los estudiantes de un curso:**<br>
+  -- <b>Metodo:</b> GET <br>
+  -- <b>Ruta:</b> http://localhost:4000/students/{course} <br>
+  -- <b>Parametro:</b> course del estudiante va en la URL
 
 
 # Angularcrud 
