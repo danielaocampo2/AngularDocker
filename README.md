@@ -10,6 +10,10 @@ https://hub.docker.com/r/danielaocampo/api-node/tags?page=1&ordering=last_update
 
 # API STUDENTS: :clipboard:
 - **Obtiene todos los estudiantes:** 
+   <b>Metodo:</b>
+             GET
+             
+
 - **Obtiene un estudiante:** 
 - **Modificar datos de un estudiante:** 
 - **Crear un estudiante:** 
