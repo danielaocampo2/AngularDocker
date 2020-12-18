@@ -9,7 +9,7 @@ También puede descargar la imagen de docker en el siguiente enlace:
 https://hub.docker.com/r/danielaocampo/api-node/tags?page=1&ordering=last_updated
 
 # API STUDENTS: :clipboard:
-- **Obtiene todos los estudiantes: ** 
+- **Obtiene todos los estudiantes:** 
 - **Obtiene un estudiante: ** 
 - **Modificar datos de un estudiante: ** 
 - **Crear un estudiante: ** 
