@@ -13,11 +13,22 @@ https://hub.docker.com/r/danielaocampo/api-node/tags?page=1&ordering=last_update
   -- <b>Metodo:</b> GET <br>
   -- <b>Ruta:</b> http://localhost:4000/students/
         
-- **Obtiene un estudiante:** 
+- **Obtiene un estudiante:** <br>
   -- <b>Metodo:</b> GET <br>
   -- <b>Ruta:</b> http://localhost:4000/students/{cc} <br>
   -- <b>Parametro:</b> cc del estudiante va en la URL
-- **Modificar datos de un estudiante:** 
+- **Modificar datos de un estudiante:**<br>
+  -- <b>Metodo:</b> POST <br>
+  -- <b>Ruta:</b> http://localhost:4000/students/update/{cc} <br>
+  -- <b>Parametro:</b> cc del estudiante va en la URL <br>
+  -- <b>Body: </b> recibe un json como el siguiente ejemplo:
+  {
+    "names":"Juan O.",
+    "cc":10364432,
+    "semester":8,
+    "grade":5,
+    "couse": "ing. web"
+ }  
 - **Crear un estudiante:** 
 - **Eliminar un estudiante:** 
 - **Modificar el campo estado, poniendo en 0 de todos los estudiantes que estan en el decimo semestre:** 
