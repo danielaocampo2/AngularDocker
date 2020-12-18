@@ -1,4 +1,16 @@
-# Angularcrud
+# Importancia contenedores docker  :whale2:
+"Permite entregar código con mayor rapidez, estandarizar las operaciones de las aplicaciones, transferir el código con facilidad y ahorrar dinero al mejorar el uso de recursos. Con Docker, obtiene un solo objeto que se puede ejecutar de manera fiable en cualquier lugar. 
+La sintaxis sencilla y simple de Docker le aporta un control absoluto. 
+La amplia adopción significa que existe un gran ecosistema de herramientas y aplicaciones listas para su uso que puede utilizar con Docker."
+
+### NOTA :point_down:
+
+También puede descargar la imagen de docker en el siguiente enlace:
+https://hub.docker.com/r/danielaocampo/api-node/tags?page=1&ordering=last_updated
+
+
+
+# Angularcrud 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
 
