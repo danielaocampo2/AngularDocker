@@ -31,16 +31,15 @@ https://hub.docker.com/r/danielaocampo/api-node/tags?page=1&ordering=last_update
  }  
 - **Crear un estudiante:** 
   -- <b>Metodo:</b> POST <br>
-  -- <b>Ruta:</b> http://localhost:4000/students/update/{cc} <br>
-  -- <b>Parametro:</b> cc del estudiante va en la URL <br>
+  -- <b>Ruta:</b> http://localhost:4000/students/add <br>
   -- <b>Body: </b> Recibe un json como el siguiente ejemplo: <br>
-    { <br>
-      "names":"Juan O.", <br>
-      "cc":10364432, <br>
-      "semester":8, <br>
-      "grade":5, <br>
-      "couse": "ing. web" <br>
-    }
+   {<br>
+    "names":"Pedro Martinez", <br>
+    "cc":145236, <br>
+    "semester":5,<br>
+    "grade":4,<br>
+    "course": "ing. web"<br>
+}
 - **Eliminar un estudiante:** 
 - **Modificar el campo estado, poniendo en 0 de todos los estudiantes que estan en el decimo semestre:** 
 - **Entregar el promedio de las notas de todos los estudiantes de un curso:**
